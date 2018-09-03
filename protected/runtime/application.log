@@ -1,0 +1,409 @@
+2015/08/30 21:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "bout" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('bout')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=bout
+---
+2015/11/30 01:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('contact')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=contact
+---
+2015/11/30 01:44:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page
+---
+2015/11/30 01:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gumballs/index.php?r=contact
+---
+2015/11/30 01:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gumballs/index.php?r=contact
+---
+2015/11/30 01:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/abou...')
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gumballs/index.php?r=site/pages/about
+---
+2015/11/30 01:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/abou...')
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gumballs/index.php?r=site/pages/about.php
+---
+2015/11/30 01:51:49 [error] [php] include(protected/views/layouts/sideMenu.php): failed to open stream: No such file or directory (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\contact.php:9)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php?r=site/page&view=contact
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\contact.php (9)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\contact.php (9)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php (13)
+2015/12/05 20:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "how" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('how')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=how
+HTTP_REFERER=http://localhost:6060/gumballs/index.php/
+---
+2015/12/05 20:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "prepare" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('prepare')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=prepare
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/05 20:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "prepare" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('prepare')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=prepare
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/05 20:26:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "prepare" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('prepare')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=prepare
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/05 20:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "prepare" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('prepare')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=prepare
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/05 20:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "prepare" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('prepare')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=prepare
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/05 20:55:43 [error] [php] include(/gumballs/protected/views/site/connect.php): failed to open stream: No such file or directory (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php:56)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(126): require()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php/
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php (56)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php (56)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\column1.php (6)
+2015/12/05 20:56:53 [error] [php] include(connect.php): failed to open stream: No such file or directory (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php:56)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(126): require()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php/
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php (56)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\main.php (56)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\layouts\column1.php (6)
+2015/12/05 21:06:45 [error] [php] include(connect.php): failed to open stream: No such file or directory (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\index.php:14)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php/
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\index.php (14)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\index.php (14)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php (32)
+2015/12/06 03:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=prepare
+---
+2015/12/06 03:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "retail" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('retail')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=retail
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=seasonal
+---
+2015/12/06 03:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=prepare
+---
+2015/12/06 03:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=retail
+---
+2015/12/06 04:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=how
+---
+2015/12/06 04:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=retail
+---
+2015/12/06 05:19:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=prepare
+---
+2015/12/06 05:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "seasonal" was not found.' in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('seasonal')
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/gumballs/index.php?r=site/page&view=seasonal
+HTTP_REFERER=http://localhost:6060/gumballs/index.php?r=site/page&view=retail
+---
+2015/12/31 01:22:33 [error] [php] Undefined variable: springStart (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\index.php:11)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php/
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\index.php (11)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\controllers\SiteController.php (32)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php (13)
+2016/01/10 23:20:16 [error] [php] include(pages/connect.php): failed to open stream: No such file or directory (C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\retail.php:14)
+Stack trace:
+#0 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#4 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#5 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#6 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php(13): CWebApplication->run()
+REQUEST_URI=/gumballs/index.php?r=site/page&view=retail
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\retail.php (14)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\protected\views\site\pages\retail.php (14)
+in C:\spring-workspace\PAPI-Gen-10-ws-10.3.6\play\gumballs\index.php (13)

@@ -1,0 +1,42 @@
+<?php
+/* @var $this SiteController */
+
+$this->pageTitle=Yii::app()->name;
+?>
+
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/index.css" />
+
+
+<div id="section3">
+	<div class="main-block" id="section3-left">
+		<div id="section3-la"> 
+			<h1>Welcome!</h1> 
+			<p><b>Welcome to gumballs & Overalls, where Amherstburg's quality children's goods are awaiting a second home.</b></p>
+			<p>We specialize in the resale of gently-used, brand name children's items.  We carry preemie to size 14.  We also carry furniture, equipment, toys, and more.</p>
+			<p>Gumballs & Overalls consigments shop is a treasure for parents and grandsparents wanting stylish and affordable items for their growing families at great, can't be beat prices.</p>
+		</div>
+		<img class="divider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/divider.png" />
+		<div id="section3-lb"> 
+			<h1>Boutique Items:</h1>
+			<p><b>Gumballs & Overalls offers special boutique items for parents lookgin for that special product.</b></p>
+			<p>Search out store for that 1 quality product that you are not able to find in big box stores.</p>
+		</div>
+		<img class="divider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/divider.png" />
+		<div id="section3-lc"> 
+			<h1>Upcoming Events:</h1>
+			<p><b>Gumballs & Overalls offers special boutique items for parents lookgin for that special product.</b></p>
+			<p>Search out store for that 1 quality product that you are not able to find in big box stores.</p>
+		</div>
+	</div>
+	<div id="section3-right">
+		<div id="section3-ra"> 
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=consign" class="ra1" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sd-menu-consign.jpg" /></a>
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=features" class="" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sd-menu-feature.jpg" /></a>
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=brands" class="ra3" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sd-menu-brands.jpg" /></a>
+		</div>
+		<div id="section3-rb">
+			<div class="fb-page" data-href="https://www.facebook.com/gumballsandoveralls.ca" data-width="350" data-height="430" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/gumballsandoveralls.ca"><a href="https://www.facebook.com/gumballsandoveralls.ca">Gumballs &amp; Overalls</a></blockquote></div></div>		
+		</div>
+	</div>
+	
+</div>
